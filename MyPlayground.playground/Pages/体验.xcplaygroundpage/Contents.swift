@@ -10,7 +10,7 @@
 import UIKit
 
 var str = "Hello, playground"
-let v = UIView(frame: CGRect.init(x: 0, y: 0, width: 100, height: 100))
+let v = UIView(frame: CGRect.init(x: 0, y: 0, width: 100, height: 100)) // 2分支提示
 v.backgroundColor = UIColor.red
 let btn = UIButton.init(type: UIButton.ButtonType.contactAdd)
 btn.center = v.center
